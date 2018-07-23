@@ -3,18 +3,18 @@
 
 your_favorite_word = "amulya"
 
-puts "My favorite word is #{your_favorite_word}".upcase
+puts "My favorite word is #{your_favorite_word}".downcase
 
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
 favorite_word_in_all_caps = "amulya"
 
-puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}".swapcase
+puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}".upcase
 
 # Challenge 3: Make all the letters of phrase lowercase using a built in Ruby method
 
-phrase = "IM NOT SHOUTING"
+phrase = "IM NOT SHOUTING".downcase
 
 lowercased_phrase = "im not shouting"
 
@@ -38,7 +38,7 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
+proper_sentence = "i really like programming.".capitalize
 
 puts proper_sentence
 
